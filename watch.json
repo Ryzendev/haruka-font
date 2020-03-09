@@ -1,0 +1,11 @@
+                                                                                                                                                                     {
+  "install": {
+    "include": ["^\\.env$"]
+  },
+  "restart": {
+    "exclude": ["^pub       lic/", "^dist/"],
+    "include": ["\\.js$", "\\.json", "\\.html", "\\.txt"] 
+  },
+  "throttle": 90000000
+}          
+                                                    
